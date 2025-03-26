@@ -1,3 +1,8 @@
+"""
+Entregable 1 infoUsers
+Autor: Emilio Pocostales de la Rosa
+Fecha: 26/03/2025
+"""
 import os
 
 import cpuinfo
