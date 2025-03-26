@@ -1,0 +1,37 @@
+"""
+Entregable 2 dirFile
+Emilio Pocostales de la Rosa
+Fecha: 26/03/2025
+"""
+import os
+listadir=[]
+listafich=[]
+fich=open("rutas.txt","r")
+for i in fich:
+    r=i.strip()
+    if os.path.isfile(r):
+        listafich.append(r)
+    elif os.path.isdir(r):
+        listadir.append(r)
+while True:
+    print("A-Eliminar fichero")
+    print("B-Mostrar informacion de directorio")
+    print("C-Copiar y pegar fichero")
+    print("D-Mostrar listas")
+    print("E-Salir")
+    opt=input("introduzca una opcion: ")
+    match opt:
+        case "A":
+            fich=input("introduzca el fichero a eliminar ")
+            
+        case "B":
+            print("a")
+        case "C":
+            print("a")
+        case "D":
+            print("a")
+        case "E":
+            print("a")
+        case _:
+            print("a")
+        
