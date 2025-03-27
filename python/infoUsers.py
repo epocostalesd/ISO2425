@@ -1,5 +1,5 @@
 """
-Entregable 1 infoUsers
+Entregable 1 infoUsers, operaciones sobre el sistema, usuarios y directorios.
 Autor: Emilio Pocostales de la Rosa
 Fecha: 26/03/2025
 """
